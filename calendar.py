@@ -5,7 +5,6 @@ from datetime import datetime
 
 from PyQt6.QtWidgets import QMainWindow, QWidget, QListWidgetItem, QMessageBox
 
-# Импортируем наши собственные модули
 from models import CalendarEvent
 from ui_widgets import (MyLabel, MyLineEdit, MyTextEdit, MyPushButton, MyListWidget,
                         MyVBoxLayout, MyHBoxLayout, MyGroupBox, MySplitter, MyStatusBar)
